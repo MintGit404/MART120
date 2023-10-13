@@ -1,0 +1,10 @@
+div {
+    font-family: Arial, Helvetica, sans-serif; 
+    color: rgb(6, 163, 59);
+}
+body {
+    background-image: url(dark\ academia.JPG);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
