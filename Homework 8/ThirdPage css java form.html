@@ -1,0 +1,52 @@
+Laurel <Schmidt class="html"></Schmidt>
+<html>
+    <Head>
+        <title>Contact us</title>
+        <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">  
+</script>
+<script>
+function checkboxes()
+{
+    var Email = document.getElementById("fname").value;
+    if(Email == "")
+    var myRadio = document.getElementById("fname").value;
+    if(myRadio == "")
+    {
+        document.getElementById("fname").style.backgroundColor = "red";
+        document.getElementById("fname").focus();
+        document.getElementById("1name").style.backgroundColor = "red";
+        document.getElementById("1name").focus()
+        document.getElementById("Email").style.backgroundColor = "red";
+        document.getElementById("Email").focus();
+        document.getElementById("myRadio").focus(); 
+    }
+}
+
+
+</script>
+    </Head>
+    <body>
+        <h1>Contact us</h1>
+    </body>
+    <body>
+        <form action="nextpage.html" type="post">
+            First Name: <input type="text" id="fname"><br>
+            Last Name: <input type="text" id="1name"><br>
+            Email: <input type="text" id="Email"><br>
+            <br>
+            <button id="mySubmit" class="btn btn-primary"
+            onclick="checkboxes();"
+            type="button">Submit</button>
+            <h3>Agree to Terms</h3>
+            <input type="radio" name="Yes" value="Yes">Yes<br>
+            <input type="radio" name="No" value="No">No
+        </form>
+
+    </body>
+    <a href="Homepage css java form.html">Go to Homepage</a>
+    <a href="SecondPage css java form.html">Go to Second Page</a>
+
+</html>
